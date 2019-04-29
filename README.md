@@ -70,6 +70,7 @@ Now write PostgreSQL queries to accomplish the following:
 
 **TIP** Stuck? Check the [PG documentation](https://www.postgresql.org/docs/)!
 
+
 #### Restocking Cheese
 
 The cheese game is changing constantly. Let's update our cheeses. Save your queries after you get them working in the command line.
@@ -79,7 +80,20 @@ The cheese game is changing constantly. Let's update our cheeses. Save your quer
 - Delete the Hooligan cheese
 - Change the stink level of Stichelton to be 7
 - Add the cheese "Monterey Jack", an American cheese with a stink level of 0
-- Delete Durrus
-- Change the stink level of Teleme to be 1
-- Delete Epoisses
+- Add a column named animal_milk with a datatype of VARCHAR(50) to the cheeses table
+- Add a column named pasteurized with a boolean datatype to the cheeses table 
+- Add the new cheese data (see table below)
 - Change "Monterey Jack" to "Pepper Jack"
+
+
+|name| animal_milk | pasteurized|
+|-------------|------:|------------:|
+| Epoisses | cow | true |
+| Charolais | goat | false |
+| Maroilles | cow | false |
+|Durrus | cow | false |
+|Roquefort | sheep | false |
+|Teleme | cow | true |
+|Stichelton | cow | true |
+|Monterey Jack| cow | true |
+

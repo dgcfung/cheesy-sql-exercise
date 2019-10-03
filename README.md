@@ -2,6 +2,8 @@
 
 # SQL Select Lab
 
+![psql practice](https://cdn.pastemagazine.com/www/system/images/photo_albums/cheese-memes/large/h5b39f396.jpeg?1384968217)
+
 You know that problem, where there's so many different types of cheeses in your fridge, that you lose track of 'em?!
 
 Yeah, me neither, I've never had that issue. Never. Never, never, ever.

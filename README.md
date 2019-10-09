@@ -20,6 +20,7 @@ Keep track of your commands! Write out your answers in the provided `cheeses.sql
 
 - Fork and clone this repo.
 - Use the cheesy.sql as your "answer sheet"
+- Use the base.sql as your "seed file"
 - From the command line, let's create a new database called `cheeses_db` and populate it with the data below.
 
 ```
@@ -31,7 +32,7 @@ CREATE DATABASE cheeses_db;
 
 # Connect to cheeses_db
 \c cheeses_db
-\i cheesy.SQL
+\i cheesy.sql
 ```
 
 **Pro Tip:** You can do this in one step with the command:

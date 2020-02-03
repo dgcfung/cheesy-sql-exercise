@@ -38,7 +38,7 @@ CREATE DATABASE cheeses_db;
 **Pro Tip:** You can do this in one step with the command:
 
 ```bash
-psql -d cheeses_db -f /your/path/to/this/file/cheesy.sql
+psql -d cheeses_db -f /your/path/to/this/file/base.sql
 ```
 
 **Exception** - Want to write a seed file for all the cheese info (located in the section below)? Go for it!
